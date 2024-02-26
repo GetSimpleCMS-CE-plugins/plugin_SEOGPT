@@ -62,7 +62,7 @@
 			$frequency_penalty = 0.0;
 			$presence_penalty = 0.0;
 			$OPENAI_API_KEY = $apiKey;
-			$sModel = "text-davinci-003";
+			$sModel = "gpt-3.5-turbo-instruct";
 			$prompt = @$_POST['question'];
 			$ch = curl_init();
 			if ($_SERVER['HTTP_HOST'] == 'localhost') {
