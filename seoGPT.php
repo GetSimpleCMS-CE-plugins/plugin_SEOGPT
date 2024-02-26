@@ -10,7 +10,7 @@
 	register_plugin(
 		$thisfile, //Plugin id
 		'seoGPT', 	//Plugin name
-		'1.1', 		//Plugin version
+		'1.2', 		//Plugin version
 		'Multicolor',  //Plugin author
 		'http://www.paypal.me/multicol0r', //author website
 		i18n_r('seoGPT/LANG_Description'), //Plugin description
